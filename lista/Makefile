@@ -1,9 +1,11 @@
 
 all:
-	g++ sequencial\(array\).cpp -o obj
-
+	g++ sequencial\(array\).cpp -o seq
+	g++ encadeada\(lista\).cpp -o enc
 run-sequencial:
-	./obj
-
+	./seq
+run-encadeada:
+	./enc
 clean:
-	rm obj
+	rm seq
+	rm enc
