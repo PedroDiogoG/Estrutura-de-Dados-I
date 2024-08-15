@@ -1,7 +1,7 @@
 
 all:
-	g++ sequencial\(array\).cpp -o seq
-	g++ encadeada\(lista\).cpp -o enc
+	g++ L_Sequencial\(array\).cpp -o seq
+	g++ L_Encadeada\(lista\).cpp -o enc
 run-sequencial:
 	./seq
 run-encadeada:
